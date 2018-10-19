@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<!--
+    Name: Youplay - Game Template based on Bootstrap
+    Version: 3.3.0
+    Author: nK
+    Website: https://nkdev.info/
+    Purchase: https://themeforest.net/item/youplay-game-template-based-on-bootstrap/11306207?ref=_nK
+    Support: https://nk.ticksy.com/
+    License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
+    Copyright 2018.
+-->
+    
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>icarus | Mu origin 7.0</title>
+
+    <meta name="description" content="icarus - Mu origin 7.0">
+    <meta name="keywords" content="mu, free, muorigin, webzen, muorigin2, game, mobile">
+    <meta name="author" content="icarus">
+
+    <link rel="icon" type="image/png" href="{% static 'web/images/dark/icon.png' %}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- START: Styles -->
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Passion+One|Cantarell:400,400italic,700">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{% static 'web/vendor/bootstrap/dist/css/bootstrap.min.css' %}" />
+
+    <!-- Flickity -->
+    <link rel="stylesheet" href="{% static 'web/vendor/flickity/dist/flickity.min.css' %}" />
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="{% static 'web/vendor/magnific-popup/dist/magnific-popup.css' %}" />
+
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="{% static 'web/vendor/slider-revolution/css/settings.css' %}">
+    <link rel="stylesheet" href="{% static 'web/vendor/slider-revolution/css/layers.css' %}">
+    <link rel="stylesheet" href="{% static 'web/vendor/slider-revolution/css/navigation.css' %}">
+
+    <!-- Bootstrap Sweetalert -->
+    <link rel="stylesheet" href="{% static 'web/vendor/bootstrap-sweetalert/dist/sweetalert.css' %}" />
+
+    <!-- Social Likes -->
+    <link rel="stylesheet" href="{% static 'web/vendor/social-likes/dist/social-likes_flat.css' %}" />
+
+    <!-- FontAwesome -->
+    <script defer src="{% static 'web/vendor/font-awesome/svg-with-js/js/fontawesome-all.min.js' %}"></script>
+    <script defer src="{% static 'web/vendor/font-awesome/svg-with-js/js/fa-v4-shims.min.js' %}"></script>
+
+    <!-- Youplay -->
+    <link rel="stylesheet" href="{% static 'web/css/youplay-anime.css' %}">
+
+    <!-- RTL (uncomment this to enable RTL support) -->
+    <!-- <link rel="stylesheet" href="assets/css/youplay-rtl.min.css" /> -->
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="{% static 'web/css/custom.css' %}">
+    <link rel="stylesheet" href="{% static 'web/css/custom-anime.css' %}">
+    <!-- END: Styles -->
+
+    <!-- jQuery -->
+    <script src="{% static 'web/vendor/jquery/dist/jquery.min.js' %}"></script>
+    
+    
+</head>
+
+
+<body>
+    
+        <!-- Preloader -->
+<div class="page-preloader preloader-wrapp">
+    
+        <!--img src="{% static 'web/images/logo-light.png' %}" alt=""-->
+    
+    <div class="preloader"></div>
+</div>
+<!-- /Preloader -->
+
+    
+<!-- Navbar -->
+<nav class="navbar-youplay navbar navbar-default navbar-fixed-top navbar-small">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="off-canvas" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+                <a class="navbar-brand" href="{% url 'index' %}">
+                    HOME
+                    <!--<img src="{% static 'web/images/logo-light.png' %}" alt="" -->
+                </a>
+            
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            
+                <ul class="nav navbar-nav">
+                    
+        <li>
+            <a href="anime-index.html#news">
+                Facebook
+            </a>
+        </li>
+        <li>
+            <a href="anime-index.html#">
+                Contact Us
+                
+            </a>
+            </a>
+        </li>
+                </ul>
+        </div>
+    </div>
+</nav>
+<!-- /Navbar -->
+
+
+
+
+    
+
+    <div class="content-wrap">
+        
+            <!--
+    Banner
+
+    Additional classes:
+        .small
+        .xsmall
+        .big
+        .full
+-->
+<section class="youplay-banner banner-top youplay-banner-parallax big">
+    
+        <div class="image" data-speed="0.4">
+            <img src="{% static 'web/images/anime/banner-bg.jpg' %}" alt="" class="jarallax-img">
+        </div>
+    
+
+    <div class="info">
+        <div>
+            <div class="container">
+                
+                
+                    <h1 class="h1">Icarus Mu origin 7.0</h1>
+                
+                
+                    
+    <a class="btn btn-md btn-white ml-6" href="#"><i class="fa fa-apple"></i>&nbsp; App Store</a><a class="btn btn-md active" href="#"><i class="fa fa-google"></i>&nbsp; Google Play</a>
+
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Banner -->
+
+        
+
+        
+    <div class="youplay-content">
+
+        <!-- Features -->
+        <section class="youplay-features container mnb-30">
+            <div class="col-sm-4">
+                <div class="feature angled-bg">
+                    <i class="fa fa-gamepad"></i>
+                    <h3>실시간 전투</h3>
+                    <div>
+                      서버를 넘어선 5:5 실시간 전투! 지금 바로 이카루스에서 즐겨보세요!    
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="feature angled-bg">
+                    <i class="fa fa-heartbeat"></i>
+                    <h3>리버스 대륙</h3>
+                    <div>
+                      리버스만의 전용 필드와 레벨, 장비, 몬스터, 인장 등 지금바로 경험해보세요!
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="feature angled-bg">
+                    <i class="far fa-hand-rock"></i>
+                    <h3>클랜 배틀로얄</h3>
+                    <div>
+                      살아남을 클랜만 도전하라! 치열한 전투끝에 가려지는 최강의 클랜이 되어보세요!
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Recent News -->
+        <h2 class="container h1" id="news">Facebook</h2>
+        <section class="youplay-news container">
+            <!-- Single News Block -->
+            <div class="news-one">
+                <div class="row vertical-gutter">
+                    <div class="col-md-4">
+                        <a href="anime-blog-post.html" class="angled-img">
+                            <div class="img">
+                                <img src="{% static 'web/images/anime/game-brs-6-500x375.jpg' %}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="clearfix">
+                            <h3 class="h2 pull-left m-0"><a href="anime-blog-post.html">icarus facebook page</a></h3>
+                            <span class="date pull-right"><i class="fa fa-calendar"></i> October 18, 2018</span>
+                        </div>
+                        <div class="description">
+                            <p>
+                                이카루스는 서버 내 중요 공지사항 및 업데이트 내용들을 페이스북 페이지에 공지합니다.<br>게임 내 문의는 페이스북 메시지를 통해 가능합니다.
+                            </p>
+                        </div>
+                        <a href="anime-blog-post.html" class="btn read-more pull-left">Click</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /Single News Block -->
+        </section>
+      </div>
+
+    <!-- Footer -->
+<footer class="youplay-footer">
+    
+        <div class="image">
+            <img src="{% static 'web/images/anime/footer-bg.jpg' %}" alt="">
+        </div>
+    
+
+    <div class="wrapper">
+            <!-- Social Buttons -->
+            <div class="social">
+                <div class="container">
+                    <h3>고객센터<strong></strong></h3>
+
+                    <div class="social-icons">
+                        <div class="social-icon">
+                            <a href="#">
+                                <i class="fab fa-discord"></i>
+                                <span>고객센터 바로가기</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Social Buttons -->
+        
+
+        
+            <!-- Copyright -->
+            <div class="copyright">
+                <div class="container">
+                    <p>2018 &copy; <strong>icarus</strong>. All rights reserved</p>
+                </div>
+            </div>
+            <!-- /Copyright -->
+        
+    </div>
+</footer>
+<!-- /Footer -->
+
+        
+    </div>
+
+    
+
+    
+
+    
+<!-- START: Scripts -->
+
+<!-- Object Fit Polyfill -->
+<script src="{% static 'web/vendor/object-fit-images/dist/ofi.min.js' %}"></script>
+
+<!-- jQuery -->
+<script src="{% static 'web/vendor/jquery/dist/jquery.min.js' %}"></script>
+
+<!-- Hexagon Progress -->
+<script src="{% static 'web/vendor/HexagonProgress/jquery.hexagonprogress.min.js' %}"></script>
+
+<!-- Bootstrap -->
+<script src="{% static 'web/vendor/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+
+<!-- Jarallax -->
+<script src="{% static 'web/vendor/jarallax/dist/jarallax.min.js' %}"></script>
+
+<!-- Flickity -->
+<script src="{% static 'web/vendor/flickity/dist/flickity.pkgd.min.js' %}"></script>
+
+<!-- jQuery Countdown -->
+<script src="{% static 'web/vendor/jquery-countdown/dist/jquery.countdown.min.js' %}"></script>
+
+<!-- Moment.js -->
+<script src="{% static 'web/vendor/moment/min/moment.min.js' %}"></script>
+<script src="{% static 'web/vendor/moment-timezone/builds/moment-timezone-with-data.min.js' %}"></script>
+
+<!-- Magnific Popup -->
+<script src="{% static 'web/vendor/magnific-popup/dist/jquery.magnific-popup.min.js' %}"></script>
+
+<!-- Revolution Slider -->
+<script src="{% static 'web/vendor/slider-revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+<script src="{% static 'web/vendor/slider-revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+
+<!-- ImagesLoaded -->
+<script src="{% static 'web/vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+
+<!-- Isotope -->
+<script src="{% static 'web/vendor/isotope-layout/dist/isotope.pkgd.min.js' %}"></script>
+
+<!-- Bootstrap Validator -->
+<script src="{% static 'web/vendor/bootstrap-validator/dist/validator.min.js' %}"></script>
+
+<!-- Bootstrap Sweetalert -->
+<script src="{% static 'web/vendor/bootstrap-sweetalert/dist/sweetalert.min.js' %}"></script>
+
+<!-- Social Likes -->
+<script src="{% static 'web/vendor/social-likes/dist/social-likes.min.js' %}"></script>
+
+<!-- Youplay -->
+<script src="{% static 'web/js/youplay.min.js' %}"></script>
+<script src="{% static 'web/js/youplay-init.js' %}"></script>
+
+
+<script>
+  $(".countdown").each(function() {
+    var tz = $(this).attr('data-timezone');
+    var end = $(this).attr('data-end');
+        end = moment.tz(end, tz).toDate();
+    $(this).countdown(end, function(event) {
+        $(this).html(
+            event.strftime([
+                '<div class="countdown-item">',
+                    '<span>Days</span>',
+                    '<span><span>%D</span></span>',
+                '</div>',
+                '<div class="countdown-item">',
+                    '<span>Hours</span>',
+                    '<span><span>%H</span></span>',
+                '</div>',
+                '<div class="countdown-item">',
+                    '<span>Minutes</span>',
+                    '<span><span>%M</span></span>',
+                '</div>',
+                '<div class="countdown-item">',
+                    '<span>Seconds</span>',
+                    '<span><span>%S</span></span>',
+                '</div>'
+            ].join(''))
+        );
+    });
+  });
+</script>
+
+
+<!-- END: Scripts -->
+
+
+    
+</body>
+</html>
